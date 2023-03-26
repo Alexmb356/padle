@@ -1,13 +1,11 @@
-body {
+body{
     margin: 0;
     padding: 0;
     font-size: 16;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background-color: lightseagreen;
-    color: white;
 }
-
 
 
 h1 {
@@ -15,15 +13,19 @@ h1 {
     color: darkslategray;
 }
 
-.container {
+#container1 {
     width: 30%;
     background-color: white;
     padding: 30px;
     margin: 30px auto;
 }
+#form {
+    display: flex;
+}
 
 ul {
-    padding: 0;
+    padding: 0%;
+    margin: 0%;
 }
 
 .li-container{
@@ -38,16 +40,19 @@ ul {
     width: 100%;
 }
 
-form {
-    display: flex;
-}
-
-input {
+#tarea {
     padding: 15px 10px;
     width: 100%;
     outline: none;
 }
 
+#box {
+    padding: 0%;
+}
+#cardBody {
+    padding: 0%;
+    margin: 0%;
+}
 .btn-add {
     padding: 5px 15px;
     color: white;
@@ -56,6 +61,7 @@ input {
     border: none;
     font-size: 1.4rem;
     outline: none;
+    border-radius: 0px 10px 10px 0;
 }
 
 .btn-add:hover {
@@ -67,29 +73,44 @@ input {
     color: darkslategray;
 }
 
+#section1{
+    padding: 0%;
+    margin-left: 7%;
+}
 li {
     list-style: none;
     border-radius: 10px;
     background-color: rgba(132, 125, 125, 0.314);
     margin-top: 15px;
-    display: flex;
+    /*display: flex;*/
+    color: whitesmoke
 }
 
-li p {
+p {
     margin: 0;
     padding: 15px;
     width: 100%;
     
+    
+}
+
+h4 {
+    color: white;
+    background-color: rgba(132, 125, 125, 0.314);
+    height: 100%;
+    width: 100%;
 }
 
 .btn-delete {
     margin-left: auto;
     color:white;
     background-color: red;
+    
     border: none;
     outline: none;
+    font-size: 1.4rem;
     padding: 5px 15px;
-    border-radius: 0px 10px 10px 0;
+    border-radius: 0px 0px 2px 0px;
 
 }
 
